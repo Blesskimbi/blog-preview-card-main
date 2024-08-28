@@ -1,0 +1,89 @@
+body {
+  background: hsl(47, 88%, 63%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.main {
+  border: 1px solid black;
+  width: 80%; /* Changed to 80% to make it more responsive */
+  max-width: 800px; /* Added max-width to prevent overflow */
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding: 20px; /* Changed to 20px to make it consistent */
+  margin: 40px auto;
+  top: 50%;
+  transform: translateY(5%);
+  border-radius: 13px;
+  height: 100vh;
+  box-sizing: border-box; /* Added box-sizing to include padding and border in height calculation */
+}
+
+.img img {
+  border-radius: 10px;
+  margin-top: 28px;
+  width: 100%; /* Added width to make the image responsive */
+  height: auto; /* Added height to maintain aspect ratio */
+}
+
+.heading {
+  font-size: 16px;
+  display: flex;
+  margin-left: 20px; /* Changed to 20px to make it consistent */
+}
+
+.heading button {
+  background-color: hsl(47, 88%, 63%);
+  padding: 5px 15px;
+  border-radius: 5px;
+  margin-top: 15px;
+  font-weight: bold;
+  border: none;
+}
+
+.paragraph {
+  font-size: 16px;
+  display: flex;
+  margin-left: 20px; /* Changed to 20px to make it consistent */
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.boldheading {
+  font-weight: 700;
+  font-size: 25px;
+  font-family: "Figtree", sans-serif;
+  font-optical-sizing: auto;
+  margin-bottom: 10px;
+  margin-left: 0; /* Changed to 0 to remove unnecessary margin */
+}
+
+p {
+  margin-top: 10px;
+  text-align: justify;
+  margin-left: 20px; /* Changed to 20px to make it consistent */
+  color: hsl(0, 0%, 42%);
+  font-size: 16px;
+}
+
+.name {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  margin-left: 20px; /* Changed to 20px to make it consistent */
+  margin-top: 10px;
+}
+
+.inline-image {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px
