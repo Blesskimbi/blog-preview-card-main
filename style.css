@@ -25,15 +25,14 @@ body {
 .main {
   border: 1px solid black;
   width: 370px;
-  background-color: white;
+  background-color: hsl(0, 0%, 100%);
   border-radius: 13px;
   height: 500px;
   box-shadow: 10px 10px;
   margin: auto;
-  display: flex;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+ display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     grid-gap: 1rem;
-  flex-direction: column;
   padding: 1rem;
   gap: 10px
 }
@@ -58,6 +57,8 @@ body {
 }
 .img1{
   border-radius: 10px;
+  width: 100%;
+  height: auto;
 }
 
 .paragraph {
